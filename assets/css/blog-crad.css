@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 125, 50);
+}
+
+
+.back-card{
+    width: 800px;
+    height: 450px;
+    justify-content: center;
+    margin-top: 130px;
+    background-color: white;
+    border-radius: 35px;
+    position: relative;
+
+}
+.back-card .blog{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-left: 400px;
+    top: 75px;
+    font-size: 24px;
+}
+
+
+.back-card .blog .main span,p{
+    color: gray;
+   
+}
+
+.back-card .blog .main span{
+    position: absolute;
+    left: 218px;
+    top: 25px;
+}
+
+
+.back-card .blog .main h4{
+    margin-left: -115px;
+
+}
+.back-card .blog .main h4{
+    position: absolute;
+    left: 335px;
+    top: 80px;
+}
+
+.back-card .blog .main p{
+    position: absolute;
+    left: 221px;
+    top: 140px;
+   
+}
+
+.back-card .blog .more{
+    width: 130px;
+    height: 42px;
+    position: absolute;
+    left: 240px;
+    top: 245px;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(242, 78, 23);
+}
+
+
+.back-card .blog .empty-div .left-div-general{
+    width: 250px;
+    height: 270px;
+    background-color: rgba(210, 6, 6, 0.949); 
+}
+.back-card .blog .empty-div .left-div-general{
+    position: absolute;
+    left: -62px;
+    top: 20px;
+    border-radius: 14px;
+}
+
+.back-card .blog .empty-div .lums-top{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(194, 189, 189);
+}
+
+.back-card .blog .empty-div .lums-top{
+    position: absolute;
+    right: 32px;
+    top: 125px;
+    border-radius: 50%;
+}
+.back-card .blog .empty-div .lums-button{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(194, 189, 189);
+}
+.back-card .blog .empty-div .lums-button{
+    position: absolute;
+    right: 32px;
+    top: 182px;
+    border-radius: 50%;
+}
+
+.back-card .blog .empty-div .scroll{
+    width: 10px;
+    height: 30px;
+    background-color: rgb(216, 41, 14);
+}
+
+.back-card .blog .empty-div .scroll{
+    position: absolute;
+    right: 32px;
+    top: 144px;
+    border-radius: 10px;
+    
+}
+
